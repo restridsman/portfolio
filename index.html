@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rebeccas Stridsman</title>
+        <link rel="stylesheet" href="./CSS/normalize.css">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Oleo Script Swash Caps' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="logo"></div>
+        <section id="mainHeader"> 
+            <h1>Frontend De<span>veloper</span></h1>
+            <h2>- PORTF<span>OLIO -</span></h2>
+        </section>
+        <!-- Main Nav -->
+        <nav id="mainNav">
+            <ul class="nav">
+                <li><a href="#firstPage">Home</a></li>
+                <li><a href="#secondPage">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- First Page - Home -->
+        <section id="firstPage">
+            <div id="vectorImg"></div>
+            <div id="about">
+                <h3>Hej,</h3>
+                <p>Om jag får gissa vilt - du har hamnat på denna sida eftersom du 
+                letar med ljus och lykta efter en helt okej frontend-utvecklare. recusandae soluta, ipsam et eos
+                enim? Dolorum, at officiis. Expedita fugit eius dolorum,
+                est ipsum vitae cupiditate ratione aperiam beatae
+                praesentium!</p>
+            </div>
+            <div class="clearFix"></div>
+        </section>
+        <!-- 2:nd Page - About -->
+        <section id="secondPage">
+            <div id="aboutMe">
+                <h3>Lite om mig..</h3>
+                <p>Lorem est ipsum vitae cupiditate ratione aperiam beatae
+                praesentium facilis recusandae soluta, ipsam et eos
+                enim? Dolorum. Scrolla gärna ner en bit för att komma till min portfolio där du kan se mina tidigare arbeten
+                eller om du inte kan få nog av att läsa om den begåvning jag besitter - jamen seså och läs vidare på länken nedan!</p>
+                <a href="about.html">Läs mer →</a>
+            </div>
+            <div id="portraitImg"></div>
+            <div class="clearFix"></div>
+        </section>
+        <!-- Sida 3 - portfolio -->
+        <section id="portfolio">
+            <h3>Ta en titt på mina tidigare projekt!</h3>
+            <div id="firstRow">
+                <div class="box-1"> 
+                    <a href="https://www.nurturedigital.com/work/nike-training-club"target="_blank">
+                    <img src="../Hemsida Portfolio/images/box-1.png" alt="placeholder picture"></a>
+                    <p class="boxText"><b>Nike Sportswear</b><br><i>2019-03-31</i></p>
+                </div>
+                <div class="box-2">
+                    <a href="https://www.buildinamsterdam.com/case/trefecta-mobility"target="_blank">
+                    <img src="../Hemsida Portfolio/images/box-2.png" alt="placeholder picture"></a>
+                    <p class="boxText"><b>Build Amsterdam</b><br><i>2019-12-13</i></p>
+                </div>
+                <div class="box-3">
+                    <a href="https://bearideas.fr/en/"target="_blank">
+                    <img src="../Hemsida Portfolio/images/box-3.png" alt="placeholder picture"></a>
+                    <p class="boxText"><b>Bearideas</b><br><i>2020-04-01</i></p>
+                </div>
+            </div>
+        </section>
+        <!--Sida 4 - Contact-->
+        <section id="contact">
+            <h3>Hallå där!</h3>
+            <p>Funderar du över något? Tveka inte på att höra av dig!<br> 
+            Använd dig gärna av mailformuläret nedan för att ta kontakt med mig.</p>
+            <form action="index.html">
+                <input type="text"id="fName" name="firstname"placeholder="Förnamn" required>
+                <input type="text"id="lName" name="Lastname"placeholder="Efternamn" required>
+                <input type="email"id="mail" name="mail"placeholder="din@mail.com"required>
+                <textarea name="subject" id="writeMail" cols="30" rows="10" placeholder="Skriv något fint.."required></textarea>
+                <input type="submit" id="button" value="Skicka">
+            </form>
+        </section>
+        <footer>
+            <p>Copyright &copy; Rebecca Stridsman Portfolio</p>
+        </footer>
+    </body>
+</html>

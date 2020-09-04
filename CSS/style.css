@@ -1,0 +1,392 @@
+*{
+    Box-sizing:border-box;
+    }   
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    background: linear-gradient(160deg, rgba(251,112,72,1) 10%, rgba(255,164,0,100) 63%, rgba(255,185,139,1) 94%);
+    }
+
+p{
+    font-size: 20px;
+    line-height: 1.7em;
+}
+
+ h3{
+    color: whitesmoke;
+    font-weight: 100;
+    margin-top: 0;
+    font-size:70px;
+}
+
+
+.clearFix{
+    clear:both;
+}
+
+/* Header */
+
+.logo{
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 5px;
+    background-image: url(../images/wlogo.png);
+}
+
+#mainHeader{
+    margin-top: 20px;
+    height: 440px;
+}
+
+h1{
+    font-size: 100px;
+    padding-bottom:60px;
+    color:  whitesmoke;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 0;
+
+}
+    
+
+h2  {
+
+    color: whitesmoke;
+    font-weight: 100;
+    margin-top: 0;
+    font-size:56px;
+    text-align: center;
+}
+
+
+/* Main Nav */
+
+#mainNav{
+    width: 100%;
+    height: 50px; 
+    background: rgb(255, 144, 75);  
+    opacity: 90%;
+    padding-bottom: 5px;
+    top:0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky; 
+    z-index: 1;
+    
+}
+
+span{
+    color:  rgb(254, 183, 83);; ;
+}
+
+#mainNav ul{
+    list-style: none;  
+    padding-top: 10px;
+    margin: auto;
+    width: 1150px;
+    text-align: center;  
+}
+
+#mainNav li{
+    display: inline;
+    padding: 0 90px;
+    font-size: 23px;  
+}
+
+
+#mainNav a{
+    text-decoration: none;
+    color: white;
+}
+
+#mainNav a:hover{
+    color: tomato;
+}
+
+
+/* First page - Home */
+
+
+#firstPage{
+    height: 800px;
+    background-color: #f4f4f438;
+}
+
+#about{
+    color: rgb(241, 241, 241);
+    float: left;
+    width: 350px;
+    margin-left: 130px;
+    margin-top: 90px;   
+}
+#about h3{
+    text-align: left;
+    padding-left: 0px;
+}
+
+#vectorImg{
+    background-image: url(../images/dev.png);
+    width:  550px;
+    height: 450px;
+    float: left;
+    margin-left: 170px;
+    margin-top: 150px;
+    background-size:cover; 
+    background-position: center;
+}
+
+
+/* Second page - About */
+
+#secondPage{
+    height: 800px; 
+}
+
+#aboutMe{
+    color: rgb(241, 241, 241);
+    float: left;
+    width: 450px;
+    margin-left: 200px;
+}
+
+#aboutMe h3{
+    text-align: left;
+    padding-top: 250px;
+    padding-left: 0px;
+}
+
+#portraitImg{
+    background-image: url(../images/reb.png);
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 250px;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#aboutMe a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 0;
+}
+
+.clearFix{
+    clear:both;
+}
+
+/* Undersida - More about me */
+
+#onePage{
+    height: 700px; 
+}
+
+
+#aboutMe2 h3{
+    text-align: left;
+    padding-top: 200px;
+    padding-left: 0;
+}
+
+#aboutMe2{
+    color: rgb(241, 241, 241);
+    float: left;
+    width: 450px;
+    margin-left: 200px;
+}
+
+#portraitImg2{
+    background-image: url(../images/reb.png);
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 190px;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#aboutMe2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 0;
+}
+
+/* Portfolio */
+
+
+#portfolio{
+    height: 800px;
+    background-color: #f4f4f42c;
+}
+
+#portfolio h3{
+    padding-top: 150px;
+    text-align: center;
+}
+ 
+#firstRow{
+    width: 1220px;
+    height: 330px;
+    margin: auto;
+    padding-top: 140px;
+}
+
+.box-1{
+    height: 300px;
+    width: 350px;
+    margin-right: 70px;
+    background-color: rgb(254, 183, 84);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    transition: transform 0.5s;
+}
+
+.box-2{
+    height: 300px;
+    width: 350px;
+    margin-right: 70px;
+    background-color: rgb(254, 183, 84);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    transition: transform .5s;
+}
+ 
+.box-3{
+    height: 300px;
+    width: 350px;
+    background-color: rgb(254, 183, 84);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    overflow: hidden;
+    transition: transform .5s;
+}
+ 
+
+img{
+    width: 100%;
+    height: 80%;
+    background-position: center;
+}
+
+.boxText{
+    margin-top: 18px;
+    margin-left: 5px;
+    line-height: 17px;
+    font-size: 15px;
+   
+}
+
+/* [class*=”box-”]:hover{           <------Försökte med denna men den funkade inte
+    transform: scale(1.2);
+} */
+
+.box-1:hover{
+    transform: scale(1.2);
+}
+
+.box-2:hover{
+    transform: scale(1.2);
+}
+
+.box-3:hover{
+    transform: scale(1.2);
+}
+
+/* Contact-page */
+
+#contact{
+    margin-top: 0px;
+    height:680px;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+#contact h3, #contact p{
+    color: whitesmoke; 
+}
+
+h3{
+    font-size: 45px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    padding-top: 80px;
+}
+
+#contact p{
+    padding-top: 0px;
+    padding-left: 5px;
+    margin-top: 0;
+}
+
+form{ 
+    padding-top: 20px;
+    width: 400px;
+    float: none;    
+    border-radius: 3%;
+}
+
+#fName, #lName, #mail, #writeMail, #button {
+    background-color: rgb(254, 228, 208);
+    border: none;
+    color: black;
+    margin: 5px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 12px; 
+    padding: 10px;
+    outline: none;  
+}
+
+#fName, #lName, #mail{
+    height: 30px;
+    width: 300px;
+    
+}
+
+#writeMail{
+    margin-top: 7px;
+    width: 400px;
+    resize: none;
+} 
+
+#button{ 
+    width: 70px;
+    height: 32px;
+    font-size: 15px; 
+    padding: 0;
+}  
+
+#button:hover{
+    background: rgb(203, 195, 195);
+    color:  rgb(89, 82, 82);
+}
+
+/* Footer */
+
+footer{ 
+    height: 80px;
+    background-color: #f4f4f438;
+    margin-top: 10px;
+}
+
+footer p{
+    padding-top: 30px;
+    color: salmon;
+    text-align: center; 
+    font-size: 15px;
+}
